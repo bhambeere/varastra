@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
           <div>
-            <p className="text-xl font-bold text-white mb-1">zUdyog Fashion</p>
+            <p className="text-xl font-bold text-white mb-1">Varastra</p>
             <p className="text-sm text-stone-400">
               Celebrating the art of Indian textiles. Handcrafted, ethical, and timeless.
             </p>
@@ -40,7 +40,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-stone-700 mt-8 pt-6 text-xs text-stone-500 text-center">
-          © {new Date().getFullYear()} zUdyog Fashion. All rights reserved.
+          © {new Date().getFullYear()} Varastra. All rights reserved.
         </div>
       </div>
     </footer>

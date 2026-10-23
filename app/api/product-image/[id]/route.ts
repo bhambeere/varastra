@@ -403,9 +403,9 @@ function buildSVG(product: Product): string {
         font-family="'Georgia',serif" font-size="14" font-weight="bold"
         fill="${d.accent}">${price}</text>
 
-  <!-- zUdyog watermark -->
+  <!-- Varastra watermark -->
   <text x="384" y="416" text-anchor="end"
-        font-family="Arial,sans-serif" font-size="8" fill="#D1D5DB" opacity="0.7">zUdyog Fashion</text>
+        font-family="Arial,sans-serif" font-size="8" fill="#D1D5DB" opacity="0.7">Varastra</text>
 
 </svg>`;
 }

@@ -15,7 +15,7 @@ export default function ChatBot() {
     {
       role: "assistant",
       content:
-        "Namaste! I'm your zUdyog Fashion assistant. Ask me anything about our collection — fabrics, sizing, occasions, or care tips.",
+        "Namaste! I'm your Varastra assistant. Ask me anything about our collection — fabrics, sizing, occasions, or care tips.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -104,14 +104,14 @@ export default function ChatBot() {
           }`}
         aria-modal="true"
         role="dialog"
-        aria-label="zUdyog AI Stylist"
+        aria-label="Varastra AI Stylist"
       >
         {/* Header */}
         <div className="bg-[#8B1A1A] text-white px-5 py-4 flex items-center justify-between flex-shrink-0">
           <div className="flex items-center gap-3">
             <span className="text-2xl">🛍️</span>
             <div>
-              <p className="font-semibold leading-tight">zUdyog AI Stylist</p>
+              <p className="font-semibold leading-tight">Varastra AI Stylist</p>
               <p className="text-[11px] text-red-200 mt-0.5">
                 Ask about fabrics, sizes &amp; occasions
               </p>

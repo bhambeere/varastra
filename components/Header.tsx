@@ -8,10 +8,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2">
             <span className="text-2xl font-bold text-[#8B1A1A] tracking-tight">
-              zUdyog
-            </span>
-            <span className="text-sm font-medium text-[#C9A84C] uppercase tracking-widest hidden sm:block">
-              Fashion
+              Varastra
             </span>
           </Link>
 

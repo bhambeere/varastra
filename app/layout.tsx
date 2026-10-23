@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "zUdyog Fashion — Indian Ethnic Wear",
+  title: "Varastra — Indian Ethnic Wear",
   description:
     "Discover 50+ handcrafted Indian ethnic outfits — kurtas, sarees, lehengas, suits, and more. Powered by an AI stylist.",
 };

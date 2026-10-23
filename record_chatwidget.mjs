@@ -1,6 +1,6 @@
 // Records real browser interaction with the live ShopBot chat widget.
 // Requires: backend running on :8000 with a real OPENAI_API_KEY, frontend
-// running on :3000 (npm run dev in zudyog-fashion). Produces a real .webm
+// running on :3000 (npm run dev in varastra). Produces a real .webm
 // video via Playwright's native recordVideo — no screenshots, no blind
 // clicking; every step waits for and asserts on the actual rendered answer
 // text before moving on.
@@ -39,7 +39,7 @@ async function run() {
 
   // Shot 2 — honest refusal (real fallback, from evaluation/test_cases.py)
   await ask(page, "Do you sell men's sherwanis?");
-  await page.getByText(/support@zudyog\.com/i).waitFor({ timeout: 20_000 });
+  await page.getByText(/support@varastra\.com/i).waitFor({ timeout: 20_000 });
   await page.waitForTimeout(1500);
 
   if (EXTENDED) {
